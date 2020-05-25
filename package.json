@@ -1,0 +1,27 @@
+{
+  "name": "tleflond-tle_testdevops",
+  "version": "1.0.0",
+  "description": "TP Devops",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node app.js"
+  }
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tleflond/TLE_TestDevops.git"
+  },
+  "author": "thibaut leflond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tleflond/TLE_TestDevops/issues"
+  },
+  "homepage": "https://github.com/tleflond/TLE_TestDevops#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "mocha": "^7.2.0"
+  }
+}
